@@ -114,7 +114,7 @@ resource "aws_instance" "web-server-instance" {
    ami               = var.ami
    instance_type     = "t2.micro"
    availability_zone = "us-east-2a"
-   key_name          = "main-key"
+   key_name          = "ec2 tutorial"
    network_interface {
      device_index         = 0
      network_interface_id = aws_network_interface.web-server-nic.id
