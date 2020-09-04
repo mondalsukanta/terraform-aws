@@ -4,7 +4,7 @@ provider "aws" {
 
 #create a EC2 instance
 resource "aws_instance" "my_fisrt_server" {
-  ami = var.AMI
+  ami = var.ami
   instance_type = "t2.macro"
     tags = {
     Name = "ubuntu"
