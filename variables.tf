@@ -11,8 +11,6 @@ variable "ami" {
 }
 
 variable "tags" {
-    type = map
-    default = {
-       Name = "production"
-    }
+    type = string
+    default = "production"
 }
