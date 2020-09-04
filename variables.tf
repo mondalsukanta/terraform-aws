@@ -14,3 +14,7 @@ variable "tags" {
     type = string
     default = "production"
 }
+
+variable "subnet_prefix" {
+  description = "cidr block for the subnet"
+}
