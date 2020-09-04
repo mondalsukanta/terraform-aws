@@ -1,8 +1,6 @@
 variable "region" {
-    type = map
-    default = {
-       Name = "us-east-2"
-    }
+    type = string
+    description = "AWS Region"
 }
 
 variable "tags" {
