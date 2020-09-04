@@ -2,6 +2,15 @@ provider "aws" {
   region     = var.region
 }
 
+#create a EC2 instance
+resource "aws_instance" "my_fisrt_server" {
+  ami = var.AMI
+  instance_type = "t2.macro"
+    tags = {
+    Name = "ubuntu"
+  }
+}
+
 variable "subnet_prefix" {
   description = "cidr block for the subnet"
 }
