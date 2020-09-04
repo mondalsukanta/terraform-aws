@@ -12,3 +12,9 @@ AWS cloud infrastructure automation using Terraform
 
 AWS Provider -
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+
+1) Terraform Variables
+ami="ami-0bbe28eb2173f6167"
+
+2) Environment Variables
+AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_DEFAULT_REGION="us-east-2"
