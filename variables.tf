@@ -1,7 +1,3 @@
-variable "subnet_prefix" {
-  description = "cidr block for the subnet"
-}
-
 variable "region" {
     type = map
     default = {
