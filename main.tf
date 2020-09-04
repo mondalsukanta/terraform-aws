@@ -1,5 +1,5 @@
 provider "aws" {
-  region     = "us-east-1"
+  region     = var.region
 }
 
 variable "subnet_prefix" {
@@ -9,7 +9,7 @@ variable "subnet_prefix" {
 resource "aws_vpc" "prod-vpc" {
   cidr_block = "10.0.0.0/16"
   tags = {
-    Name = "production"
+    Name = var.tags
   }
 }
 
@@ -32,4 +32,3 @@ resource "aws_subnet" "subnet-2" {
     Name = var.subnet_prefix[1].name
   }
 }
-
