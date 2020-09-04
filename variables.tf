@@ -1,6 +1,8 @@
 variable "region" {
     type = string
-    description = "AWS Region"
+        default = {
+       Name = "us-east-2"
+    }
 }
 
 variable "tags" {
