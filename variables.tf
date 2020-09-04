@@ -3,8 +3,10 @@ variable "subnet_prefix" {
 }
 
 variable "region" {
-    type = string
-    description = "AWS region"
+    type = map
+    default = {
+       Name = "us-east-2"
+    }
 }
 
 variable "tags" {
