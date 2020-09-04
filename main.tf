@@ -11,10 +11,6 @@ resource "aws_instance" "my_fisrt_server" {
   }
 }
 
-variable "subnet_prefix" {
-  description = "cidr block for the subnet"
-}
-
 resource "aws_vpc" "prod-vpc" {
   cidr_block = "10.0.0.0/16"
   tags = {
