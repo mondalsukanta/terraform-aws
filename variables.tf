@@ -4,6 +4,12 @@ variable "region" {
     description = "Default AWS region"
 }
 
+variable "ami" {
+    type = string
+    default = "ami-0bbe28eb2173f6167"
+    description = "Default Ubuntu AMI"
+}
+
 variable "tags" {
     type = map
     default = {
