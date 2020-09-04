@@ -1,15 +1,10 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAJTTSSUF2PB6HDCCA"
-  secret_key = "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"
 }
 
 variable "subnet_prefix" {
   description = "cidr block for the subnet"
-
 }
-
-
 
 resource "aws_vpc" "prod-vpc" {
   cidr_block = "10.0.0.0/16"
