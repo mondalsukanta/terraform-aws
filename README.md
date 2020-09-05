@@ -1,6 +1,5 @@
 # terraform-aws
-AWS cloud infrastructure automation using Terraform
-
+<h1>AWS cloud infrastructure automation using Terraform</h1>
 1) Virtual private cloud (VPC) — A virtual network dedicated to your AWS account.
 2) Security groups - A security group acts as a virtual firewall for your instance to control inbound and outbound traffic
 3) Subnet — A range of IP addresses in your VPC.
@@ -10,7 +9,7 @@ AWS cloud infrastructure automation using Terraform
 7) Elastic network interfaces - An elastic network interface is a logical networking component in a VPC that represents a virtual network card.
 8) Amazon EC2 - Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud.
 
-AWS Provider -
+<h1>AWS Provider</h1> -
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
 1) Terraform Variables : 
